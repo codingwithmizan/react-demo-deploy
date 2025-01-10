@@ -16,6 +16,7 @@ export default defineConfig({
     template: 'index.html'
   },
   server: {
-    port: 3005
+    port: 3005,
+    base: "/react-demo-deploy/"
   }
 });
